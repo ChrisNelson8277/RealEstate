@@ -1,0 +1,236 @@
+ body{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+#navbar-container {
+    position:fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 100;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+#navbar {
+    /* background-color: rgba(28, 45, 108, 0.935); */
+    color: white;
+    width: 70%;
+    margin: auto;
+    /* border-bottom: 1px solid rgb(128, 128, 128); */
+    overflow: hidden;
+}
+#nav-2{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+#logo img {
+    height: 50px;
+
+}
+#navbar ul{
+    list-style-type: none;
+    transition: all .5s ease-in-out;
+
+}
+#navbar li {
+    font-size: 1.4rem;
+    display: inline;
+    padding: 0.3rem;
+    text-transform: capitalize;
+}#navbar li a{
+    padding: 0.5rem 0.5rem;
+}
+#navbar:hover li{
+    box-shadow: 0 0 5px 10px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+/* #navbar li a:focus {
+    color:yellow
+} */
+/* Nav bar font color must be changed here as well */
+a, a:visited {
+ text-decoration: none;
+ color: white;
+}
+.active {
+    background-color: rgba(1, 136, 255, 0.662);
+    border-radius: 10px;
+    color: white;
+}
+/* home pg */
+#bg-container {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+#bg {
+    background-image: url("https://asp.osu.edu/sites/default/files/styles/slideshow_image/public/Fotolia_192209375_M.jpg?h=16a6d817&itok=9r4Ar8Tc");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+    margin: 0 auto;
+
+
+}
+#bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48,52,65,0.65);
+}
+#bg img{
+    padding: 0;
+
+
+}
+#header {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: none;
+    text-align: center;
+    font-size: 2.5rem;
+    width: 100%;
+    top: 35%;
+    border: none !important;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+.fa-map-marker {
+    padding: 10px;
+    min-width: 40px;
+    color: rgb(0, 136, 255);
+}
+
+#address-search i {
+    position: absolute;
+}
+#address-search-text {
+    width: 70%;
+    height: 3vh;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#button-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+#button-container button {
+    height: 4vh;
+    width: 20%;
+    margin: 5px;
+    font-size: 1.3rem;
+}
+#button-container button:hover {
+    cursor: pointer;
+}
+/* page 2*/
+#page-2-container {
+    width: 100%;
+}
+#page-2 {
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 5rem 0;
+}
+#page-2 h1 {
+    font-size: 3rem;
+}
+/* #card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+} */
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+}
+
+.card-bottom{
+    text-align: left;
+    padding: 0 0.5rem;
+    margin: 0;
+    border: 1px solid black;
+    border-top: none;
+
+}
+.house-card-bottom{
+
+    justify-content: space-around;
+    margin: 0;
+    border: 1px solid black;
+    border-top: none;
+    height: 100%;
+    text-align: center;
+
+}
+.house-card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.3rem;
+    color: rgb(151, 145, 145);
+}
+.house-card-bottom div{
+}
+.swiper {
+    width: 70%;
+  }
+.card img{
+    width: 100%;
+}
+h5 {}
+/* start of 3rd section */
+#house-listings{
+    width: 100%;
+    background-color: #ededed; 
+    height: 40vh;
+}
+.house-header{
+    display: flex;
+    justify-content: space-around;
+}
+.fa-home{
+    color: rgb(0, 179, 255);
+    padding: 0 0.3rem;
+    font-size: 2rem;
+}
+.mySwiper2 .card{
+    height: 400px;
+}
+.mySwiper2 img{
+    width: 100%;
+    height: 60%;
+    
+}
