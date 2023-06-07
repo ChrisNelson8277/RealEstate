@@ -272,9 +272,37 @@ h5 {}
 
 /* 4th section */
 #sold-listings {
-    height: 50vh;
     background-color: white;
 }
 .cards-wrapper {
-    
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+
+}
+#spacer {
+    width: 70%;
+    height: 1vh;
+    margin: auto;
+    border-bottom: 3px solid rgb(123, 123, 123);
+}
+#footer-wrapper{
+    background-color: 	#36454f;
+    height: 30vh;
+    width: 100%;
+}
+#foot-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+#footer-flex {
+    display: block;
+}
+.footer-flex > div {
+    margin: 2rem 0;
 }
